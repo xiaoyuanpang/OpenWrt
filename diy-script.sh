@@ -17,8 +17,10 @@ rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/luci/applications/luci-app-netdata
 
 # 添加额外插件
-git clone --depth=1 https://github.com/tty228/luci-app-wechatpush
-git clone --depth=1 https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-aliddns
+git clone --depth=1 https://github.com/tty228/luci-app-wechatpush package/luci-app-wechatpush
+git clone --depth=1 https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-aliddns package/luci-app-aliddns
+git clone --depth=1 https://github.com/selfcan/luci-app-homebox package/luci-app-homebox
+git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-ssr-mudb-server package/luci-app-ssr-mudb-server
