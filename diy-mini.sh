@@ -19,7 +19,7 @@ rm -rf feeds/luci/applications/luci-app-mosdns
 git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone --depth=1 https://github.com/xiangfeidexiaohuo/extra-ipk/tree/master/op-homebox/luci-app-homebox package/luci-app-homebox
+git clone --depth=1 https://github.com/xiangfeidexiaohuo/extra-ipk/tree/master/op-homebox package/luci-app-homebox
 svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-ssr-mudb-server package/luci-app-ssr-mudb-server
 svn export https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-eqos package/luci-app-eqos
 # svn export https://github.com/syb999/openwrt-19.07.1/trunk/package/network/services/msd_lite package/msd_lite
