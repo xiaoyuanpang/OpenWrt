@@ -16,30 +16,30 @@ rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/applications/luci-app-mosdns
 
 # 添加额外插件
-git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
-git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
-git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone --depth=1 https://github.com/sirpdboy/netspeedtest package/netspeedtest
-# svn export https://github.com/syb999/openwrt-19.07.1/trunk/package/network/services/msd_lite package/msd_lite
+git clone --depth=1 -b openwrt-18.06 https://githubfast.com/tty228/luci-app-wechatpush package/luci-app-serverchan
+git clone --depth=1 https://githubfast.com/gdy666/luci-app-lucky package/luci-app-lucky
+git clone --depth=1 https://githubfast.com/destan19/OpenAppFilter package/OpenAppFilter
+git clone --depth=1 https://githubfast.com/sirpdboy/netspeedtest package/netspeedtest
+# git_sparse_clone master https://githubfast.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 
 # 科学上网插件
-git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
+git clone --depth=1 -b main https://githubfast.com/fw876/helloworld package/luci-app-ssr-plus
 
 # Themes
-git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+git clone --depth=1 -b 18.06 https://githubfast.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone --depth=1 https://githubfast.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 
 # 更改 Argon 主题背景
 cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
 
 # msd_lite
-git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
-git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
+git clone --depth=1 https://githubfast.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
+git clone --depth=1 https://githubfast.com/ximiTech/msd_lite package/msd_lite
 
 # MosDNS
-svn export https://github.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns package/luci-app-mosdns
-svn export https://github.com/sbwml/luci-app-mosdns/trunk/mosdns package/mosdns
+svn export https://githubfast.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns package/luci-app-mosdns
+svn export https://githubfast.com/sbwml/luci-app-mosdns/trunk/mosdns package/mosdns
 
 
 # x86 型号只显示 CPU 型号
