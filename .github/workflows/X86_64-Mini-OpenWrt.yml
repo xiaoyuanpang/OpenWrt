@@ -1,7 +1,7 @@
 name: X86_64 Mini OpenWrt
 #on:
-  workflow_dispatch:
-  schedule:
+  #workflow_dispatch:
+  #schedule:
     - cron: 0 19 * * *
 
 env:
