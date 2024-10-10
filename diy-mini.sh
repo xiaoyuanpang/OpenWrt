@@ -34,8 +34,8 @@ cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-stat
 
 
 # msd_lite
-git clone --depth=1 https://githubfast.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
-git clone --depth=1 https://githubfast.com/ximiTech/msd_lite package/msd_lite
+git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
+git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
 
 # MosDNS
 svn export https://githubfast.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns package/luci-app-mosdns
