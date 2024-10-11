@@ -18,7 +18,6 @@ rm -rf feeds/luci/applications/luci-app-mosdns
 # 添加额外插件
 git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
 git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone --depth=1 https://github.com/sirpdboy/netspeedtest/tree/master/luci-app-netspeedtest package/netspeedtest
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 
 # 科学上网插件
